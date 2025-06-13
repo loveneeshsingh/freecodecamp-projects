@@ -8,11 +8,11 @@ This repository contains my solutions for the HTML & CSS projects in the Respons
 
 ### 🧾 Survey Form  
 A clean and accessible form using HTML5 semantic tags.  
-🔗 [Live Demo](#) — _(Add if deployed)_
+🔗 [Live Demo](#) — (https://survey-form-loveneesh.netlify.app/)
 
 ### 🛍️ Product Landing Page  
 Responsive landing page with Flexbox and media queries.  
-🔗 [Live Demo](#)
+🔗 [Live Demo](#)https://product-landing-page-loveneesh.netlify.app/
 
 ---
 
