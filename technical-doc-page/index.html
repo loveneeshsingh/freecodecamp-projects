@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JavaScript Documentation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav id="navbar">
+    <header>JavaScript Docs</header>
+    <a class="nav-link" href="#introduction">Introduction</a>
+    <a class="nav-link" href="#syntax">Syntax</a>
+    <a class="nav-link" href="#variables">Variables</a>
+    <a class="nav-link" href="#functions">Functions</a>
+    <a class="nav-link" href="#loops">Loops</a>
+  </nav>
+
+  <main id="main-doc">
+
+    <section class="main-section" id="introduction">
+      <header><h2>Introduction</h2></header>
+      <p>JavaScript ek programming language hai jo web pages ko interactive banata hai.</p>
+      <p>Ye browser me directly chalti hai aur HTML ke sath use hoti hai.</p>
+      <p>JavaScript se hum popups, sliders, forms, games, sab kuch bana sakte hain.</p>
+      <ul>
+        <li>Client-side language</li>
+        <li>Runs in browser</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="syntax">
+      <header><h2>Syntax</h2></header>
+      <p>Syntax matlab hota hai JavaScript likhne ke rules.</p>
+      <p>Statements ko semicolon (;) se end karte hain, aur code blocks curly braces {} me likhte hain.</p>
+      <code>
+        // Example<br>
+        let name = "Loveneesh";<br>
+        console.log(name);
+      </code>
+      <ul>
+        <li>Semicolon optional but recommended</li>
+        <li>Code blocks use { }</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="variables">
+      <header><h2>Variables</h2></header>
+      <p>Variable ek box jaisa hota hai jisme data store hota hai.</p>
+      <p>JavaScript me hum <code>let</code>, <code>const</code>, ya <code>var</code> se variable banate hain.</p>
+      <code>
+        let age = 25;<br>
+        const name = "Ravi";<br>
+        var city = "Delhi";
+      </code>
+      <ul>
+        <li>let = block scope</li>
+        <li>const = constant value</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="functions">
+      <header><h2>Functions</h2></header>
+      <p>Function ek block hota hai jo koi kaam karta hai.</p>
+      <p>Hum function ko call karke use baar baar use kar sakte hain.</p>
+      <code>
+        function greet(name) {<br>
+          return "Hello " + name;<br>
+        }<br><br>
+        greet("Loveneesh");
+      </code>
+      <ul>
+        <li>Functions are reusable blocks</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="loops">
+      <header><h2>Loops</h2></header>
+      <p>Loop ka use tab hota hai jab hume koi kaam baar baar repeat karna ho.</p>
+      <p>JavaScript me <code>for</code>, <code>while</code> jaise loop hote hain.</p>
+      <code>
+        for (let i = 0; i &lt; 5; i++) {<br>
+          console.log("Count: " + i);<br>
+        }
+      </code>
+      <ul>
+        <li>for loop is most used</li>
+      </ul>
+    </section>
+
+  </main>
+
+</body>
+</html>
